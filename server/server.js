@@ -10,6 +10,7 @@ app.get('/api', (req, res) => {
             'Sam'
         ]
     });
+    console.log(req.originalUrl + ' ' + res.statusCode);
 });
 
 const PORT = 5000;
